@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:bisque;
+  }
+  
+  nav {
+    background-color: bisque;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color:rgb(25, 24, 23);
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+   /* Home Page Styles */
+   .home-content {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Services Page Styles */
+  .service {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Page Styles */
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
